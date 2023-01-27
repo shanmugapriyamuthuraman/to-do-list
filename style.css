@@ -1,0 +1,44 @@
+
+body{
+	margin:0;
+	background-color:#f8f4a6;
+}
+.container{
+	width:50%;
+	margin:20px auto;
+	border:2px solid black;
+	padding:10px;
+}
+.input-section{
+	display:flex;
+}
+.input-section input{
+	width:100%;
+	padding:5px;
+}
+.input-section button{
+	background-color:#e08e45;
+	border:none;
+	color:#fff;
+}
+.list-section ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	margin-top:10px;
+}
+.list-section ul li{
+	border:1px solid black;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.done{
+	text-decoration:line-through;
+}
+.close{
+	background-color:red;
+	padding:7px;
+	color:white;
+	font-size:2rem;
+}
