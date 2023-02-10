@@ -21,6 +21,9 @@ body{
 	border:none;
 	color:#fff;
 }
+h1{
+	text-align:center;
+}
 .list-section ul{
 	list-style:none;
 	margin:0;
